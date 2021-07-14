@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* jumbotron */
+.jumbotronHeading{
+    font-size: 30px;
+    color:rgb(185, 8, 8);
+    padding-top: 60px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bolder;
+}
+@media screen and (max-width:680px) {
+    .jumbotronHeading{
+        font-size: 30px;
+        color:rgb(185, 8, 8);
+        padding-top: 80px;
+        margin: 20px 0;
+        text-align: center;
+        font-weight: bolder;
+    }
+}
+.jumbotronHeading i{
+    text-align: center;
+}
+.upJumbotron{
+    background-color: rgb(185, 8, 8);
+    box-shadow: 10px 10px 20px black;
+}
+.jumbotronImg{
+    background-size: cover;
+   height: 30vh;
+}
+.jumbotronData{
+    color: white;
+}

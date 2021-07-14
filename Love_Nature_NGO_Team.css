@@ -1,0 +1,866 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* team */
+.teamContainer{
+    position: relative;
+    padding-top: 50px;
+}
+@media screen and (max-width:680px) {
+    .teamContainer{
+        position: relative;
+        padding-top: 80px;
+    }
+}
+.teamHeading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(185, 8, 8);
+    margin: 10px;
+}
+
+/* ramesh */
+.ramesh{
+    display: flex;
+    height: 25vw;
+    background-color: rgb(185, 8, 8);
+    width: 70vw;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 8px 5px 15px black;
+    margin-bottom: 30px;
+}
+.rameshPic{
+    flex-grow: 1;
+}
+.rameshPic img{
+    height: 25vw;
+    width: 25vw;
+    border-radius: 10px;
+}
+.rameshDetailContainer{
+    flex-grow: 2;
+    padding: 1vw;
+}
+.rameshDetailHeading{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+.rameshDetailDetails{
+    font-size: 18px;
+    color: white;
+    height: 16vw;
+    overflow: auto;
+}
+.rameshDetailSocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+.rameshDetailSocialMedia div a{
+    width: 4vw;
+    height: 4vw;
+    margin: .5vw;
+    padding: .5vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 5px 15px black;
+}
+.rameshFacebook{
+    background: #3B5998;
+}
+.rameshTwitter{
+    background: #55ACEE;
+}
+.rameshLinkedin{
+    background: #007bb5;
+}
+.rameshInstagram{
+    background: #cb2027;
+}
+.rameshFacebook:hover,.rameshTwitter:hover,.rameshLinkedin:hover,.rameshInstagram:hover{
+    animation-name: rameshSocialMediaAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes rameshSocialMediaAnimation {
+    100%{
+        background-color: white;
+        color:rgb(185, 8, 8);
+        width: 5vw;
+        height: 5vw;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+ 
+.rameshDetailHeading{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+.rameshDetailDetails{
+    font-size: 15px;
+    color: white;
+    height: 16vw;
+    overflow: auto;
+}
+.rameshDetailSocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vw;
+}
+.rameshDetailSocialMedia div a{
+    width: 5vw;
+    height: 5vw;
+    margin: .5vw;
+    padding: 1vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 8px 5px 15px black;
+    align-items: center;
+}   
+.rameshFacebook:hover,.rameshTwitter:hover,.rameshLinkedin:hover,.rameshInstagram:hover{
+    animation-name: rameshSocialMediaAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes rameshSocialMediaAnimation {
+    100%{
+        background-color: white;
+        color:rgb(185, 8, 8);
+        width: 6vw;
+        height: 6vw;
+        margin: 0;
+    }
+}
+}
+
+@media screen and (max-width:800px) {
+    .ramesh{
+        display: flex;
+        height: 30vw;
+        background-color: rgb(185, 8, 8);
+        width: 90vw;
+        margin: auto;
+        border-radius: 8px;
+        box-shadow: 8px 5px 15px black;
+    margin-bottom: 30px;
+    }
+    .rameshPic{
+        flex-grow: 1;
+    }
+    .rameshPic img{
+        height: 30vw;
+        width: 30vw;
+        border-radius: 8px;
+    }
+    .rameshDetailContainer{
+        flex-grow: 2;
+        padding: 2vw;
+    }
+    
+    .rameshDetailHeading{
+        font-size: 19px;
+        color: white;
+        font-weight: 500;
+        margin-bottom: 2vw;
+    }
+    .rameshDetailDetails{
+        font-size: 14px;
+        color: white;
+        height: 16vw;
+        overflow: auto;
+    }
+    .rameshDetailSocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5vw;
+    }
+    .rameshDetailSocialMedia div a{
+        width: 7vw;
+        height: 7vw;
+        margin: 1.5vw;
+        padding: 1vw;
+        color: white;
+        text-decoration: none;
+        border-radius: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    box-shadow: 8px 5px 15px black;
+    align-items: center;
+    }   
+    .rameshFacebook:hover,.rameshTwitter:hover,.rameshLinkedin:hover,.rameshInstagram:hover{
+        animation-name: rameshSocialMediaAnimation;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes rameshSocialMediaAnimation {
+        100%{
+            background-color: white;
+            color:rgb(185, 8, 8);
+            width: 10vw;
+            height: 10vw;
+            margin: 0;
+        }
+    }
+}
+
+
+@media screen and (max-width:550px) {
+
+    .teamHeading{
+        font-size: 25px;
+        text-align: center;
+        font-weight: bolder;
+        color:rgb(185, 8, 8);
+        margin: 8px;
+    }
+    .ramesh{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: 100vw;
+        margin: auto;
+        background-color: transparent;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 8px 5px 15px black;
+    }
+    .rameshPic{
+        display: flex;
+        justify-content: center;
+    }
+    .rameshPic img{
+        height: 60vw;
+        width: 60vw;
+        z-index: 2;
+        border-radius: 5px;
+        box-shadow: 8px 5px 15px black;
+    }
+    .rameshDetailContainer{
+        padding: 1vw;
+        width: 90vw;
+        height: 60vw;
+        padding: 10vw 2vw 2vw 2vw;
+        background-color: rgb(185, 8, 8);
+        position: absolute;
+        top: 50vw;
+        border-radius: 5px;
+        box-shadow: 8px 5px 15px black;
+    }
+    .rameshDetailHeading{
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+        margin: 1vw 0;
+    }
+    .rameshDetailDetails{
+        font-size: 15px;
+        color: white;
+        height: 30vw;
+        overflow: auto;
+    }
+    .rameshDetailSocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vw;
+    }
+    .rameshDetailSocialMedia div a{
+        width: 12vw;
+        height: 12vw;
+        margin: 2vw;
+        padding: 2vw;
+        color: white;
+        text-decoration: none;
+        border-radius: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    box-shadow: 8px 5px 15px black;
+    align-items: center;
+    }
+    .rameshFacebook{
+        background: #3B5998;
+    }
+    .rameshTwitter{
+        background: #55ACEE;
+    }
+    .rameshLinkedin{
+        background: #007bb5;
+    }
+    .rameshInstagram{
+        background: #cb2027;
+    }
+    .rameshFacebook:hover,.rameshTwitter:hover,.rameshLinkedin:hover,.rameshInstagram:hover{
+        animation-name: rameshSocialMediaAnimation;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes rameshSocialMediaAnimation {
+        100%{
+            background-color: white;
+            color:rgb(185, 8, 8);
+            width: 16vw;
+            height: 16vw;
+            margin: 0;
+        }
+    }
+    
+} 
+
+
+
+/* other Team  */
+.otherMemberRow1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.one{
+    width: 23vw;
+    background-color: rgb(185, 8, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px black;
+}
+.onePic{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    background: url('slide1.jpg');
+    background-size: cover;
+}
+.oneDetails{
+}
+.oneName{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+}
+.onePosition{
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.oneClick{
+    margin-top: 20px;
+    text-align: center;
+}
+.oneClick a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(185, 8, 8);
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.otherMemberRow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.otherMemberData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.otherMembberDetails{
+    width: 30vw;
+    height: 20vw;
+    box-shadow: 10px 10px 15px rgb(185, 8, 8);
+    color: rgb(185, 8, 8);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px 3vw 10px;
+    text-align: center;
+    overflow-y: auto;
+}
+.otherMemberSocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 18vw;
+}
+.otherMemberSocialMedia div a{
+    width: 4vw;
+    height: 4vw;
+    margin: .5vw;
+    padding: .5vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 5px 15px rgb(185, 8, 8);
+}
+.otherMemberFacebook{
+    background: #3B5998;
+}
+.otherMemberTwitter{
+    background: #55ACEE;
+}
+.otherMemberLinkedin{
+    background: #007bb5;
+}
+.otherMemberInstagram{
+    background: #cb2027;
+}
+
+.otherMemberFacebook:hover,.otherMemberTwitter:hover,.otherMemberLinkedin:hover,.otherMemberInstagram:hover{
+    animation-name: otherMemberSocialMediaAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes otherMemberSocialMediaAnimation {
+    100%{
+        background-color: white;
+        color:rgb(185, 8, 8);
+        width: 5vw;
+        height: 5vw;
+        margin: 0;
+    }
+}
+
+
+
+@media screen and (max-width:1000px) {
+    
+.one{
+    width: 27vw;
+    background-color: rgb(185, 8, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw;
+    margin: 3vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px black;
+}
+.onePic{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 100%;
+    background: url('slide1.jpg');
+    background-size: cover;
+}
+.oneDetails{
+}
+.oneName{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+}
+.onePosition{
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.oneClick{
+    text-align: center;
+    margin-top: 20px;
+}
+.oneClick a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(185, 8, 8);
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.otherMemberRow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.otherMemberData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.otherMembberDetails{
+    width: 30vw;
+    height: 35vw;
+    box-shadow: 10px 10px 15px rgb(185, 8, 8);
+    color: rgb(185, 8, 8);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px 3vw 10px;
+    text-align: center;
+    overflow-y: auto;
+}
+.otherMemberSocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 32.5vw;
+}
+.otherMemberSocialMedia div a{
+    width: 4vw;
+    height: 4vw;
+    margin: .5vw;
+    padding: .5vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 5px 15px rgb(185, 8, 8);
+}
+.otherMemberFacebook{
+    background: #3B5998;
+}
+.otherMemberTwitter{
+    background: #55ACEE;
+}
+.otherMemberLinkedin{
+    background: #007bb5;
+}
+.otherMemberInstagram{
+    background: #cb2027;
+}
+
+.otherMemberFacebook:hover,.otherMemberTwitter:hover,.otherMemberLinkedin:hover,.otherMemberInstagram:hover{
+    animation-name: otherMemberSocialMediaAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes otherMemberSocialMediaAnimation {
+    100%{
+        background-color: white;
+        color:rgb(185, 8, 8);
+        width: 5vw;
+        height: 5vw;
+        margin: 0;
+    }
+}
+}
+
+
+
+@media screen and (max-width:700px) {
+    
+    .one{
+        width: 32vw;
+        background-color: rgb(185, 8, 8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3vw;
+        margin: 3vw 5px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 12px black;
+    }
+    .onePic{
+        width: 25vw;
+        height: 25vw;
+        border-radius: 100%;
+        background: url('slide1.jpg');
+        background-size: cover;
+    }
+    .oneDetails{
+    }
+    .oneName{
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        margin: 8px;
+        text-align: center;
+    }
+    .onePosition{
+        font-size: 15px;
+        color: white;
+        margin: 8px;
+        text-align: center;
+    }
+    .oneClick{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .oneClick a{
+        text-decoration: none;
+        padding: 8px 18px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(185, 8, 8);
+        background-color: white;
+        box-shadow: 5px 5px 10px black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .otherMemberRow2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .otherMemberData{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .otherMembberDetails{
+        width: 30vw;
+        height: 40vw;
+        box-shadow: 10px 10px 15px rgb(185, 8, 8);
+        color: rgb(185, 8, 8);
+        font-size: 16px;
+        font-weight: 500;
+        padding: 8px 8px 3vw 8px;
+        text-align: center;
+        overflow-y: auto;
+    }
+    .otherMemberSocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 35.5vw;
+    }
+    .otherMemberSocialMedia div a{
+        width: 6vw;
+        height: 6vw;
+        margin: 1vw;
+        padding: 1vw;
+        color: white;
+        text-decoration: none;
+        border-radius: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 5px 15px rgb(185, 8, 8);
+    }
+    .otherMemberFacebook{
+        background: #3B5998;
+    }
+    .otherMemberTwitter{
+        background: #55ACEE;
+    }
+    .otherMemberLinkedin{
+        background: #007bb5;
+    }
+    .otherMemberInstagram{
+        background: #cb2027;
+    }
+    
+    .otherMemberFacebook:hover,.otherMemberTwitter:hover,.otherMemberLinkedin:hover,.otherMemberInstagram:hover{
+        animation-name: otherMemberSocialMediaAnimation;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes otherMemberSocialMediaAnimation {
+        100%{
+            background-color: white;
+            color:rgb(185, 8, 8);
+            width: 8vw;
+            height: 8vw;
+            margin: 0;
+        }
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    
+.otherMemberRow1{
+    margin-top: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.one{
+    width: 40vw;
+    background-color: rgb(185, 8, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+    margin: 5vw;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px black;
+}
+.onePic{
+    width: 35vw;
+    height: 35vw;
+    border-radius: 100%;
+    background: url('slide1.jpg');
+    background-size: cover;
+}
+.oneDetails{
+}
+.oneName{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    margin: 8px;
+    text-align: center;
+}
+.onePosition{
+    font-size: 14px;
+    color: white;
+    margin: 8px;
+    text-align: center;
+}
+.oneClick{
+    margin-top: 16px;
+    text-align: center;
+}
+.oneClick a{
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(185, 8, 8);
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.otherMemberRow2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.otherMemberData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -60vw;
+    right: 5vw;
+}
+.otherMembberDetails{
+    width: 90vw;
+    height: 60vw;
+    box-shadow: 10px 10px 15px rgb(185, 8, 8);
+    color: rgb(185, 8, 8);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    overflow-y: auto;
+}
+.otherMemberSocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55vw;
+}
+.otherMemberSocialMedia div a{
+    width: 10vw;
+    height: 10vw;
+    margin: 2vw;
+    padding: 2vw;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 5px 15px rgb(185, 8, 8);
+}
+.otherMemberFacebook{
+    background: #3B5998;
+}
+.otherMemberTwitter{
+    background: #55ACEE;
+}
+.otherMemberLinkedin{
+    background: #007bb5;
+}
+.otherMemberInstagram{
+    background: #cb2027;
+}
+
+.otherMemberFacebook:hover,.otherMemberTwitter:hover,.otherMemberLinkedin:hover,.otherMemberInstagram:hover{
+    animation-name: otherMemberSocialMediaAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes otherMemberSocialMediaAnimation {
+    100%{
+        background-color: white;
+        color:rgb(185, 8, 8);
+        width: 14vw;
+        height: 14vw;
+        margin: 0;
+    }
+}
+
+
+}
